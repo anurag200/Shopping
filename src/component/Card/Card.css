@@ -1,0 +1,49 @@
+
+.card {
+  box-shadow: 3px 3px 10px rgb(209, 204, 202);
+}
+
+.card .image{
+  height: 150px;
+}
+.card .image img {
+  height: 100%;
+  width: 100%;
+}
+
+.add_to_cart {
+
+    border: none;
+    border-radius: 20px;
+   box-shadow: 2px 2px 5px #96a876 ;
+  background-color: #96a876;
+  color: #fff;
+}
+.add_to_cart:focus{
+  color: black;
+}
+.Buy {
+  background-color: orangered;
+  box-shadow: 2px 2px 5px orangered ;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+ 
+}
+ 
+.card_button button:hover{
+  box-shadow: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card .image{
+    height: 320px;
+  }
+  .card .image img {
+    height: 100%;
+    width: 100%;
+  }
+}
